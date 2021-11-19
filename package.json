@@ -1,0 +1,23 @@
+{
+  "name": "code-test-grap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "mysql": "^2.18.1",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.6"
+  }
+}

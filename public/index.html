@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my code test</title>
+</head>
+<body>
+    <h1>Welcome to my Code Test!</h1>
+    <hr>
+    <h2>Add Member & Reward</h2>
+    <!-- <form action="http://localhost:8000/addmember" method="POST">
+        <input type="text" name="memberName" placeholder="Input the Member you want to input!">
+        <input type="submit"/>
+    </form>
+    <br>
+    <form action="http://localhost:8000/addreward" method="POST">
+        <input type="text" name="rewardName" placeholder="Input the Reward you want to input!">
+        <input type="submit"/>
+    </form> -->
+    <form action="http://localhost:8000/add" method="POST">
+        <select name="addType" id="">
+            <option value="member">Member</option>
+            <option value="reward">Reward</option>
+        </select>
+        <input type="text" name="rewardName" placeholder="Input the Reward you want to input!">
+        <input type="submit" value="Add"/>
+    </form>
+    <hr>
+    <h2>Assign Reward</h2>
+    <form action="">
+        Select member: <select name="selectMem" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>&nbsp;&nbsp;&nbsp;
+        Select reward: <select name="selectRew" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </form>
+    
+    <hr>
+    <h2>Search Member</h2>
+    <hr>
+    <h2>Delete Member</h2>
+    <h2>Delete Reward</h2>
+    
+</body>
+</html>
