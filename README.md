@@ -6,10 +6,10 @@ When MySQL is ready to go, run 'node server.js' to start the server, then browse
 
 
 
-## introduction
+## Introduction
 This is a small web application created by node.js along with MySQL. On the page, you can create new member or reward, assign reward to member, search member info by member name, and delete member or reward.
 
-## assumptions
+## Assumptions
 1. When you start the application, I initialized a member 'kevin'. Member info includes member id(pk), member name, and reward id(fk); Reward info includes reward id(pk) and reward name.
 2. No reward is initialized and you need to create one
 3. A member can only be assigned one reward
@@ -21,5 +21,10 @@ Node.js
 mysql
 express
 ejs
+
+## Timeline
+11/18 Start coding
+11/19 Finish coding
+11/20 Edit comments and README.md file, push "V1" to github
 
 ## Thank you for your opportunity!

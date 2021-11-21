@@ -40,6 +40,8 @@ export const initDB = ()=>{
     .then(result=> execSQL("create table member(memberID int NOT NULL, memberName varchar(50) NOT NULL UNIQUE, rewardID int, PRIMARY KEY (memberID), FOREIGN KEY (rewardID) REFERENCES reward(rewardID))"))
     //initialize member with id 1, memberName 'kevin' and no reward assigned which is NULL
     .then(result=> execSQL("insert into member values(1, 'kevin', NULL)"))
+    //initialize reward with id 1, rewardName 'gold'
+    .then(result=> execSQL("insert into reward values(1, 'gold')"))
     .then(result=> console.log("member table is inited!\nPress Ctrl+C to quit!"))
     .catch(reason=>{
         console.log(reason)
