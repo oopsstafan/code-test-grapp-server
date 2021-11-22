@@ -1,4 +1,4 @@
-import mysql from 'mysql'
+import mysql from 'mysql2'
 
 //connect to mysql with config
 //PLease input your mysql config(password and port)
